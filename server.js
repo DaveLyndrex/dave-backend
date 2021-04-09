@@ -7,7 +7,7 @@ const UserRouter = require('./routes/user');
 require('dotenv').config();
 
 const app = express(); //app which is express.
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 
 app.use(cors()); //use middleware which is cors.
 app.use(express.json()); //by default.
